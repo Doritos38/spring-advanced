@@ -36,5 +36,38 @@ out/
 ### VS Code ###
 .vscode/
 
-### properties ###
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Log ###
+*.log
+logs/
+*.out
+
+### Build result ###
+/build/
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+### Setting ###
+.env
+*.config
 *.properties
+*.yml
+*.yaml
+
+### Package ###
+node_modules/
+vendor/
+*.lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+#### Git ###
+.gitignore
+.gitattributes

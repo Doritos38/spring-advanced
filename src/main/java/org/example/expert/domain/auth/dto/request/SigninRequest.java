@@ -15,4 +15,16 @@ public class SigninRequest {
     private String email;
     @NotBlank
     private String password;
+
+    public int solution(int n) {
+
+        String a = Integer.toString(n,3);
+        StringBuilder b = new StringBuilder();
+        for(int i=a.length()-1;i>0;i--){
+            b.append(a.charAt(i));
+        }
+        int answer = Integer.parseInt(b.toString(),10);
+        System.out.println(answer);
+        return answer;
+    }
 }
